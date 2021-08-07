@@ -1,0 +1,23 @@
+/* #header {
+    background-color: red;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+} */
+
+.navbar {
+    /* margin: 0 20px; */
+}
+
+#navigation-bar {
+    background-color: #2C146F;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #ffff;
+}
