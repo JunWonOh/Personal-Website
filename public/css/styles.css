@@ -10,14 +10,31 @@ h1 {
 } */
 
 .navbar {
-    /* margin: 0 20px; */
+    padding: 0;
 }
 
 #navigation-bar {
-    background-color: #2C146F;
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     font-size: 1.2rem;
-    color: #ffff;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Dosis-bold', sans-serif;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+    background-color: #1c1c1c;
+    
+}
+
+.dropdown-item {
+    font-family:  'Dosis-bold', sans-serif;
+    color: white;
 }
