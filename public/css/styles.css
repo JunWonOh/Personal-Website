@@ -19,22 +19,72 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 body {
     background-color: #121212;
-    font-family: 'Dosis-bold', sans-serif;
+    font-family: 'Arvo-bold', sans-serif;
 }
 
 .dropdown-menu-right {
     right: 0;
     left: auto;
     background-color: #1c1c1c;
-    
+
 }
 
 .dropdown-item {
-    font-family:  'Dosis-bold', sans-serif;
+    font-family: 'Arvo-bold', sans-serif;
     color: white;
+}
+
+.welcome {
+    padding-top: 5%;
+    padding-left: 15%;
+    font-family: 'Arvo-bold', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.animatedtext li{
+    color: white;
+    /* remove bulleted points */
+    list-style: none;
+    font-size: 70px;
+}
+
+.animatedtext li span{
+    position: relative;
+}
+
+.animatedtext li span::after{
+    content: "";
+    position:absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid white;
+    animation: typing 1.5s steps(9) infinite;
+    background: #121212;
+}
+
+.gifs {
+    height: 200px;
+    width: 200px;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+#about {
+    background-color: white;
+}
+
+.wrapper {
+    
 }
