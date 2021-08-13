@@ -29,7 +29,10 @@ body {
 
 #navigation-bar {
     background-color: #1c1c1c;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: .25;
 }
 
 /* Home */
@@ -104,7 +107,7 @@ body {
 
 .row.center-block {
     max-width: 70%;
-    margin-left: 14%;
+    margin-left: 14.85%;
 }
 
 .wrapper {
@@ -123,6 +126,7 @@ body {
 
 
 #stars {
+    z-index: .5;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -309,6 +313,7 @@ body {
 }
 
 #stars::after {
+    z-index: .5;
     content: '';
     position: absolute;
     top: 2000px;
@@ -498,6 +503,7 @@ body {
 }
 
 #stars2 {
+    z-index: .5;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -558,6 +564,7 @@ body {
 }
 
 #stars2:after {
+    z-index: .5;
     content: '';
     position: absolute;
     top: 2000px;
@@ -620,6 +627,7 @@ body {
 }
 
 #stars3 {
+    z-index: .5;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -655,6 +663,8 @@ body {
 }
 
 #stars3:after {
+
+    z-index: .5;
     content: '';
     position: absolute;
     top: 2000px;
