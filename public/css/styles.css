@@ -1,14 +1,14 @@
 /* Body */
-
 body {
     background-color: #121212;
     font-family: 'Arvo-bold', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /* Header */
-
 .dropdown-item {
-    font-family: 'Arvo', sans-serif;
+    font-family: sans-serif, Arial, Helvetica;
     color: white;
 }
 
@@ -39,17 +39,7 @@ body {
     font-family: 'Arvo', sans-serif;
     color: white;
     font-size: 3rem;
-    /* background: -webkit-linear-gradient(white,m #38495a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
-
-html {
-    height: 100%;
-    overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-}
-
 
 /* -- Animated Text */
 .animatedtext li{
@@ -84,13 +74,37 @@ html {
 /** -- About section */
 
 #about {
-    background-color: white;
-    font-family: 'Arvo', sans-serif,;
+    background-image: url('../images/paper\ texture.jpg');
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#about .about-title {
+    font-family: 'Arvo', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-entity {
+    text-align: center;
+}
+
+.about-entity h1{
+    font-family: 'Arvo', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 .gifs {
     height: 200px;
     width: 200px;
+}
+
+.row.center-block {
+    max-width: 70%;
+    margin-left: 14%;
 }
 
 .wrapper {
@@ -683,6 +697,6 @@ html {
 
     }
     to {
-        transform: translateY(2000px);
+        transform: translateY(-2000px);
     }
 }
