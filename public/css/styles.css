@@ -39,7 +39,7 @@ body {
 .welcome {
     padding-top: 5%;
     padding-left: 15%;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     font-size: 3rem;
 }
@@ -49,49 +49,49 @@ body {
     margin-bottom: 150px;
 }
 
-#animatedtext path:nth-child(2){
-    stroke-dasharray: 327;
-    stroke-dashoffset: 327;
+#animatedtext path:nth-child(1){
+    stroke-dasharray: 379.7088317871094;
+    stroke-dashoffset: 379.7088317871094;
     animation: line-anim 1.6s ease forwards;
 }
-#animatedtext path:nth-child(3){
-    stroke-dasharray: 197;
-    stroke-dashoffset: 197;
+#animatedtext path:nth-child(2){
+    stroke-dasharray: 327.6123046875;
+    stroke-dashoffset: 327.6123046875;
     animation: line-anim 1.6s ease forwards 0.3s;
 }
-#animatedtext path:nth-child(4){
-    stroke-dasharray: 271;
-    stroke-dashoffset: 271;
+#animatedtext path:nth-child(3){
+    stroke-dasharray: 192.1581268310547;
+    stroke-dashoffset: 192.1581268310547;
     animation: line-anim 1.6s ease forwards 0.6s;
 }
-#animatedtext path:nth-child(5){
-    stroke-dasharray: 293;
-    stroke-dashoffset: 293;
+#animatedtext path:nth-child(4){
+    stroke-dasharray: 271.5718994140625;
+    stroke-dashoffset: 271.5718994140625;
     animation: line-anim 1.6s ease forwards 0.9s;
 }
-#animatedtext path:nth-child(6){
-    stroke-dasharray: 327;
-    stroke-dashoffset: 327;
+#animatedtext path:nth-child(5){
+    stroke-dasharray: 293.6212463378906;
+    stroke-dashoffset: 293.6212463378906;
     animation: line-anim 1.6s ease forwards 1.2s;
 }
-#animatedtext path:nth-child(7){
-    stroke-dasharray: 216;
-    stroke-dashoffset: 216;
+#animatedtext path:nth-child(6){
+    stroke-dasharray: 327.61126708984375;
+    stroke-dashoffset: 327.61126708984375;
     animation: line-anim 1.6s ease forwards 1.5s;
 }
-#animatedtext path:nth-child(8){
-    stroke-dasharray: 223;
-    stroke-dashoffset: 223;
+#animatedtext path:nth-child(7){
+    stroke-dasharray: 216.2840576171875;
+    stroke-dashoffset: 216.2840576171875;
     animation: line-anim 1.6s ease forwards 1.8s;
 }
-#animatedtext path:nth-child(9){
-    stroke-dasharray: 327;
-    stroke-dashoffset: 327;
+#animatedtext path:nth-child(8){
+    stroke-dasharray: 193.20883178710938;
+    stroke-dashoffset: 193.20883178710938;
     animation: line-anim 1.6s ease forwards 2.1s;
 }
-#animatedtext path:nth-child(10){
-    stroke-dasharray: 379;
-    stroke-dashoffset: 379;
+#animatedtext path:nth-child(9){
+    stroke-dasharray: 327.611328125;
+    stroke-dashoffset: 327.611328125;
     animation: line-anim 1.6s ease forwards 2.4s;
 }
 
@@ -101,38 +101,7 @@ body {
     }
 }
 
-/* -- Animated Text
-.animatedtext li{
-    color: white;
-    remove bulleted points
-    list-style: none;
-    font-size: 70px;
-}
-
-.animatedtext li span{
-    position: relative;
-}
-
-.animatedtext li span::after{
-    content: "";
-    position:absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid white;
-    animation: typing 1.5s steps(9) infinite;
-    background: #121212;
-}
-
-@keyframes typing {
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-} */
-
 /** -- About section */
-
 #about {
     background-image: url('../images/paper\ texture.jpg');
     padding-top: 40px;
@@ -140,7 +109,7 @@ body {
 }
 
 #about .about-title {
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
@@ -152,7 +121,7 @@ body {
 }
 
 .about-entity h1{
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 1.8rem;
 }
@@ -160,6 +129,7 @@ body {
 .gifs {
     height: 200px;
     width: 200px;
+    margin-bottom: 5%;
 }
 
 .row.center-block {
@@ -169,6 +139,48 @@ body {
 
 .wrapper {
     
+}
+
+.gifs {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.gifs:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+/** Education section */
+#education {
+    background-image: url('../images/paper\ texture-dark.jpg');
+    color: white;
+    font-family: 'Ubuntu', sans-serif nnnn nnnnnnnnnnnnnnnn                                                                                                                                        n    n  ;
 }
 
 
