@@ -180,11 +180,33 @@ body {
 #education {
     background-image: url('../images/paper\ texture-dark.jpg');
     color: white;
-    font-family: 'Ubuntu', sans-serif nnnn nnnnnnnnnnnnnnnn                                                                                                                                        n    n  ;
+    font-family: 'Ubuntu', sans-serif;   
+    font-size: 1.5rem;                                                                                                                          
 }
 
+.contents {
+    display: inline-block;
+    padding: 60px 0 0 30%;
+}
 
+.contents h1 {
+    font-size: 3.5rem;
+}
 
+.uni-image {
+    max-height: 600px;
+    max-width: 600px;
+    height: auto;
+    width: auto;
+    padding: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 
 
