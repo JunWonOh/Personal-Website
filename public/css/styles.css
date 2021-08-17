@@ -253,7 +253,10 @@ body {
 }
 
 .carousel {
-    padding: 40px;
+    max-width: 1000px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
 }
 
 .carousel img {
@@ -261,20 +264,22 @@ body {
     max-height: 600px;
     width: auto;
     height: auto;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), black);
 }
 
-.carousel-indicators li {
-    filter: invert(100%);
+.carousel-control-prev:hover {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(216, 216, 216));
 }
 
-.carousel-caption {
-    text-shadow: 2px 2px black;
+.carousel-control-next:hover {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(216, 216, 216));
 }
 
 #projects h1 {
     font-size: 3.5rem;
     padding-top: 60px;
-    text-align: center;
+    padding: 60px 0 0 30%;
+    color: white;
 }
 
 #stars {

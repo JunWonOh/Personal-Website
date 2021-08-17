@@ -22,16 +22,15 @@
     <h1 class="about-title">About Me!</h1>
     <div class="row center-block">
         <div class="about-entity col-lg-4 col-md-6">
-            <img class="gifs" src="/images/education.gif" alt="gif one">
+            <a href="#education"><img class="gifs" src="/images/education.gif" alt="gif one"></a>
             <h1>EDUCATION</h1>
-            <p></p>
         </div>
         <div class="about-entity col-lg-4 col-md-6">
-            <img class="gifs" src="/images/experiences.gif" alt="gif two">
+            <a href="#experiences"><img class="gifs" src="/images/experiences.gif" alt="gif two"></a>
             <h1>EXPERIENCES</h1>
         </div>
         <div class="about-entity col-lg-4 col-md-6">
-            <img class="gifs" src="/images/projects.gif" alt="gif three">
+            <a href="#projects"><img class="gifs" src="/images/projects.gif" alt="gif three"></a>
             <h1>PROJECTS</h1>
         </div>
     </div>
@@ -110,37 +109,52 @@
     </div>
 </section>
 <section id="projects">
-    <h1>Projects</h1>
-    <div class="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="https://github.com/JunWonOh/Piano-Trainer-App"><img class="center" src="/images/img1.jpg" alt="First slide"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Piano Trainer App</h5>
-                    <p>An app to easily record and playback piano notes</p>
+    <div class="row">
+        <div class="col-lg-6 col-md-6">
+            <h1>Projects</h1>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="carousel">
+                <div id="project-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="https://github.com/JunWonOh/Piano-Trainer-App"><img class="center" src="/images/img1.jpg" alt="First slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Piano Trainer App</h5>
+                            <p>An app to easily record and playback piano notes</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/JunWonOh/Multimodal-Calculator"><img class="center" src="/images/img2.jpg" alt="Second slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Multimodal Calculator</h5>
+                            <p>Voice recognition/Button Calculator created using various Python libraries and the PAC design pattern</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://github.com/JunWonOh/Personal-Website"><img class="center" src="/images/img3.jpg" alt="Third slide"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Personal Website</h5>
+                            <p>A website to showcase projects, experiences and educational background</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://github.com/JunWonOh/Multimodal-Calculator"><img class="center" src="/images/img2.jpg" alt="Second slide"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Multimodal Calculator</h5>
-                    <p>Voice recognition/Button Calculator created using various Python libraries and the PAC design pattern</p>
-                  </div>
-              </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-          </div>
+        </div>
     </div>
 </section>
 <%- include("templates/footer") -%> 
