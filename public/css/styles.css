@@ -178,10 +178,21 @@ body {
 
 /** Education section */
 #education {
-    background-image: url('../images/paper\ texture-dark.jpg');
     color: white;
     font-family: 'Ubuntu', sans-serif;   
     font-size: 1.5rem;                                                                                                                          
+}
+
+.edu-parallax {
+    background-image: url('../images/dark-uni-bg.png');
+    /* Set a specific height */
+    min-height: 100px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contents {
@@ -236,10 +247,35 @@ body {
     height: auto;
 }
 
+/** Projects section */
+#projects {
+    background-image: url('../images/paper\ texture-dark.jpg');
+}
 
+.carousel {
+    padding: 40px;
+}
 
+.carousel img {
+    max-width: 1000px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
 
+.carousel-indicators li {
+    filter: invert(100%);
+}
 
+.carousel-caption {
+    text-shadow: 2px 2px black;
+}
+
+#projects h1 {
+    font-size: 3.5rem;
+    padding-top: 60px;
+    text-align: center;
+}
 
 #stars {
     z-index: .5;

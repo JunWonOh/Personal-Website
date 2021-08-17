@@ -37,22 +37,24 @@
     </div>
 </section>
 <section id="education">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="contents">
-                <h1>Education</h1>
-                <ul>
-                    <li>B.S. in Computer Science with a minor in Business</li>
-                    <li>University at Albany, NY</li>
-                    <li>2017-2021</li>
-                    <li>3.63 Cumulative GPA</li>
-                    <li>Magna Cum Laude</li>
-                    <li>Academic honors: Dean's list 6 semesters, <p>Spellman Academic Award 3 years</p></li>
-                </ul>
+    <div class="edu-parallax">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contents">
+                    <h1>Education</h1>
+                    <ul>
+                        <li>B.S. in Computer Science with a minor in Business</li>
+                        <li>University at Albany, NY</li>
+                        <li>2017-2021</li>
+                        <li>3.63 Cumulative GPA</li>
+                        <li>Magna Cum Laude</li>
+                        <li>Academic honors: Dean's list 6 semesters, <p>Spellman Academic Award 3 years</p></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <img class="uni-image center" src="/images/university.png" alt="university png">
+            <div class="col-lg-6">
+                <img class="uni-image center" src="/images/university.png" alt="university png">
+            </div>
         </div>
     </div>
 </section>
@@ -64,7 +66,12 @@
                 <img class="card-img-top center" src="/images/eop.png" alt="EOP">
                 <div class="card-body">
                   <h5 class="card-title">EOP Computer Science Tutor</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">
+                      <ul>
+                          <li>Tutored on Assembly Programming and Computer Organization for 8Hrs/Week.</li>
+                          <li>Gained teaching skills and experience doing code review.</li>
+                      </ul>
+                  </p>
                 </div>
               </div>
         </div>
@@ -73,7 +80,14 @@
                 <img class="card-img-top center" src="/images/ieee.png" alt="IEEE">
                 <div class="card-body">
                   <h5 class="card-title">IEEE UAlbany Student Chapter, Social Media Director</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">
+                      <ul>
+                          <li>Managed the Twitter and YouTube accounts for the student branch.</li>
+                          <li>Discussed solutions to programming challenges during meetings.</li>
+                          <li>Advertised events on a weekly basis.</li>
+                          <li>Worked on a “Piano Trainer” Android App and presented on weekly updates.</li>
+                      </ul>
+                    </p>
                   <a href="https://www.albany.edu/~jo481765/IEEE/" class="btn btn-secondary">Learn More</a>
                 </div>
               </div>
@@ -83,11 +97,50 @@
                 <img class="card-img-top center" src="/images/kdd.png" alt="KDD">
                 <div class="card-body">
                   <h5 class="card-title">KDD Cup 2021 Participant</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">
+                      <ul>
+                          <li>Studied some of the latest technologies surrounding machine learning (Graph Attention Networks).</li>
+                          <li>Collaborated with team members on a ML model to predict papers’ subject areas in a heterogeneous academic graph.</li>
+                      </ul>
+                  </p>
                   <a href="https://ogb.stanford.edu/kddcup2021/" class="btn btn-secondary">Learn More</a>
                 </div>
               </div>
         </div>
+    </div>
+</section>
+<section id="projects">
+    <h1>Projects</h1>
+    <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://github.com/JunWonOh/Piano-Trainer-App"><img class="center" src="/images/img1.jpg" alt="First slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Piano Trainer App</h5>
+                    <p>An app to easily record and playback piano notes</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://github.com/JunWonOh/Multimodal-Calculator"><img class="center" src="/images/img2.jpg" alt="Second slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Multimodal Calculator</h5>
+                    <p>Voice recognition/Button Calculator created using various Python libraries and the PAC design pattern</p>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
     </div>
 </section>
 <%- include("templates/footer") -%> 
