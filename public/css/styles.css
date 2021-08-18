@@ -32,7 +32,7 @@ body {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
-    z-index: .25;
+    z-index: 2;
 }
 
 /* Home */
@@ -236,7 +236,8 @@ body {
 }
 
 .card {
-    z-index: .1;
+    position: relative;
+    z-index: 1;
 }
 
 .card-img-top {
@@ -257,6 +258,8 @@ body {
     max-height: 600px;
     width: auto;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .carousel img {
@@ -289,7 +292,7 @@ body {
 #contact-me {
     font-family: 'Ubuntu', sans-serif;
     color: white;
-    padding: 30px 800px;
+    padding: 30px 20%;
 }
 
 #contact-me button {
@@ -308,6 +311,7 @@ body {
 
 .form-control {
     margin-bottom: 10px;
+    width: 100%;
     background-image: url('../images/paper\ texture.jpg');
 }
 
@@ -316,7 +320,7 @@ body {
 }
 
 #stars {
-    z-index: .5;
+    z-index: 3;
     width: 1px;
     height: 1px;
     background: transparent;
