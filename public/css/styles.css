@@ -277,9 +277,42 @@ body {
 
 #projects h1 {
     font-size: 3.5rem;
-    padding-top: 60px;
-    padding: 60px 0 0 30%;
     color: white;
+}
+
+.projects-list {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/** Contact section */
+#contact-me {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 30px 800px;
+}
+
+#contact-me button {
+    width: 200px;
+    font-size: 1.75rem;
+}
+
+#contact-me h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#contact-me label {
+    font-size: 1.5rem;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    background-image: url('../images/paper\ texture.jpg');
+}
+
+.message-box {
+    margin-bottom: 30px;
 }
 
 #stars {
