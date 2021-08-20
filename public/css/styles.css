@@ -103,7 +103,7 @@ body {
 
 /** -- About section */
 #about {
-    background-image: url('../images/paper\ texture.jpg');
+    background-image: url('../images/backgrounds/paper\ texture.jpg');
     padding-top: 40px;
     padding-bottom: 30px;
 }
@@ -184,7 +184,7 @@ body {
 }
 
 .edu-parallax {
-    background-image: url('../images/dark-uni-bg.png');
+    background-image: url('../images/backgrounds/dark-uni-bg.png');
     /* Set a specific height */
     min-height: 100px;
 
@@ -221,7 +221,7 @@ body {
 
 /** Experiences section */
 #experiences {
-    background-image: url('../images/paper\ texture.jpg');
+    background-image: url('../images/backgrounds/paper\ texture.jpg');
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -250,7 +250,7 @@ body {
 
 /** Projects section */
 #projects {
-    background-image: url('../images/paper\ texture-dark.jpg');
+    background-image: url('../images/backgrounds/paper\ texture-dark.jpg');
 }
 
 .carousel {
@@ -312,13 +312,47 @@ body {
 .form-control {
     margin-bottom: 10px;
     width: 100%;
-    background-image: url('../images/paper\ texture.jpg');
+    background-image: url('../images/backgrounds/paper\ texture.jpg');
 }
 
 .message-box {
     margin-bottom: 30px;
 }
 
+/** Knowledge section */
+#knowledge {
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+}
+
+#knowledge .heading {
+    font-size: 3.5rem;
+}
+
+.list {
+    padding: 30px 30%;
+}
+
+/** Resume section */
+#resume {
+    background: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px;
+}
+
+#resume h1 {
+    font-size: 3.5rem;
+}
+
+#resume a {
+    width: 200px;
+}
+#resume button {
+    width: 200px;
+    font-size: 1.75rem;
+}
 #stars {
     z-index: 3;
     width: 1px;
