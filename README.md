@@ -11,4 +11,6 @@ To run locally, download the source code, cd into the directory and run the foll
 npm install 
 nodemon app.js
 ```
+Then visit https://localhost:3000/ in browser.
+
 Node.js is required. [Get it here](https://nodejs.org/en/download/)
