@@ -1,7 +1,7 @@
 # Personal-Website
 *A personal portfolio website to showcase experiences, projects, education, and more*
 
-(An actual link to the hosted website will be put up in the future.)
+Link to the website: https://junwonoh.github.io/Personal-Website-HTML-Ver/
 
 ![Homepage](https://github.com/JunWonOh/Personal-Website/blob/main/public/images/carousel-items/img3.jpg)
 
